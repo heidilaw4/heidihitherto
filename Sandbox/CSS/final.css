@@ -18,6 +18,7 @@
         overflow: hidden;
 }
 
+/** BUTTONS **/
 .buttons a{
         height: 50px;
         width: 50px;
@@ -30,14 +31,31 @@
         text-decoration: none;
         line-height: 50px;
 }
+.squareIcon {
+        width: 15px;
+        height: 15px;
+        background: rgba(255, 255, 255, 0.6);
+        margin: 17px;
+}
 
 .buttons .gohex a {
         left: 70px;
 }
 
+.buttons p {
+    font-family: Georgia;
+    color: white;
+    padding-left: 8px;
+}
+
+.buttons .gosquare p {
+    padding-left: 14px;
+}
+
 .buttons .textinput a {
         left: 132px;
 }
+
 .text {
         width: 100%;
         background-color: white;
@@ -46,14 +64,13 @@
         font-family: 'Montserrat', arial;
         font-size: 70px;
 }
+
 /** HEX **/
 
 .hex .container {
-        width: 1440px; 
-        height:880px;
-/*  overflow: hidden;
-*/}
-
+    width: 1440px; 
+    height:880px;
+}
 
 .hex .wrapper {
 width: 1880px;
@@ -126,5 +143,5 @@ border-right: 52px solid transparent;
 }
 
 .disappear {
-        display: none;
+    display: none;
 }
