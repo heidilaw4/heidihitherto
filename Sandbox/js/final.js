@@ -1,3 +1,6 @@
+/** DIVS FOR SQUARES **/
+$("p").append("<p>this!</p>");
+
 /** BUTTONS **/
 
 $('.gohex').on('click', function(){
